@@ -2,13 +2,13 @@ import './App.css';
 import Cards from './componentes/cards/cards';
 import Footer from './componentes/footer/footer';
 import MenuBars from './componentes/menuBars/menuBars';
-import NavBar from './componentes/navBar/navBar';
+import Navbar from './componentes/navBar/Navbar';
 import Section from './componentes/section/section';
 
 function App() {
   return (
     <div className="App">
-    <NavBar/>
+    <Navbar/>
     <Section/>
     <Cards/>
     <Footer/>
